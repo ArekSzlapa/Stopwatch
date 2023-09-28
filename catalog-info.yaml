@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-repo
+  annotations:
+    github.com/project-slug: topics/example-repo
+spec:
+  type: other
+  lifecycle: unknown
